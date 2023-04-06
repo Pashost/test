@@ -24,6 +24,6 @@ fun main(){
 
     //exampless
     //Strings
-    val testStr : String = "dfjijbjkfjbjfjkdnjfnjefjn"
-    println(testStr.uppercase(Locale.getDefault()) + testStr.length)
+    val testStr : String = "dfjijbjkfjbj fjkdnjfnjefjn"
+    println(testStr.uppercase(Locale.getDefault()) + testStr.length +" "+ testStr.compareTo(name))
 }
